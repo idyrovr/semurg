@@ -7,7 +7,7 @@ import Navbar from "../../components/Navbar";
 export const RouterProvider = () => {
     return (
         <div>
-            <Navbar />
+             <div className='navbarToSticky'><Navbar /></div>
             <Suspense fallback={<div>Loading. . .</div>}>
                 <Routes>
                     {

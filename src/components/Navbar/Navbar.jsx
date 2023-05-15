@@ -1,6 +1,7 @@
 import './Navbar.scss'
 import { Link, NavLink } from 'react-router-dom';
 import Logo from '../../assets/images/logo.png'
+import ContactUsButton from '../ContactButton';
 
 
 export const Navbar = () => {
@@ -16,9 +17,9 @@ export const Navbar = () => {
                <NavLink to="/about" className="header__link canHover">About</NavLink>
                <NavLink to="/services" className="header__link canHover">Services</NavLink>
                <NavLink to="/quote" className="header__link canHover">Get a quote</NavLink>
-               <NavLink to="tel:+14702607325" className="header__link"><button  className="header__button">+1 470-260-7325</button></NavLink>
-               <NavLink to="/contact" className="header__link" ><button  className="header__button contact">Contact Us </button></NavLink>
-               
+               <NavLink to="tel:+14702607325" className="header__link"><button className="header__button">+1 470-260-7325</button></NavLink>
+               <NavLink to="/contact" className="header__link"><ContactUsButton></ContactUsButton></NavLink>
+
             </nav>
          </div>
       </header>

@@ -1,4 +1,4 @@
-import GetQuote from '../GetQuote';
+import GetQuote from '../GetQuoteButton';
 import './Hero.scss'
 import Eclipse from '../../assets/images/Ellipse.png'
 

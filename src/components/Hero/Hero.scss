@@ -2,13 +2,13 @@
     background: url(../../assets/images/Volvo.jpg) no-repeat center/cover;
     height: 100vh;
     width: 100%;
-    position: absolute;
-    top: 0;
+    position: relative;
+    
 
 
     &__content {
         position: relative;
-        margin-top: 471px;
+    
         max-width: 505px;
     }
 
@@ -24,6 +24,7 @@
         -webkit-text-fill-color: transparent;
         background-clip: text;
         -text-fill-color: transparent;
+      
     }
 
     &__desc {
@@ -46,6 +47,7 @@
         line-height: 25px;
         letter-spacing: 0.03em;
         color: #FFFFFF;
+        margin-top: 471px;
     }
 
     &__button {
@@ -54,7 +56,7 @@
 
     &__eclipse {
         position: absolute;
-        top: -101px;
+        bottom: 46px;
         left: -38px;
     }
 }
