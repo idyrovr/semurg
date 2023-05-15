@@ -2,13 +2,34 @@
 
 :root {
     --black: #000000;
-    --FFFFFF: #FFFFFF;
-    --F5B848: #F5B848;
-    --D4AF6C: #D4AF6C;
+    --white: #FFFFFF;
+    --f: #F5B848;
+    --d: #D4AF6C;
     --lightBlack: #2D2C2C;
     --brown: #5F5138;
 }
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
 
+  ::-webkit-scrollbar {
+    width: 1.3rem;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background: #797979;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #222224;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f9f9f9;
+  }
 body {
     font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
 }
